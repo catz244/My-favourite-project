@@ -1,0 +1,56 @@
+body{
+  text-align:center;
+}
+#head{
+  font-family:monospace;
+  text-shadow:2px;
+}
+#hat{
+  font-family:fantasy;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    width: 100%;
+    background: white;
+}
+
+.links {
+    display: inline;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: fantasy;
+    font-size: 20px;
+    color:black;
+}
+
+
+
+.links:hover {
+    background-color: dodgerblue;
+    font-size: 25px;
+}
+
+
+
+#bye{
+    position: absolute;
+    height:800px;
+    color: #FFFFFF;
+    opacity: 0.83;
+    background:linear-gradient(#34cfeb 0%,#34eb9c 100%);  
+    width: 100%;
+    height:60%;
+}
+#inspiration img{
+    transition: transform.2s;
+    border:10px solid #AAAAAA;
+}
+#inspiration img:hover{
+    transform:scale(0.9);
+}
